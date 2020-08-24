@@ -1,0 +1,6 @@
+rootProject.name = 'PulsatorNativeExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativepulsatornative'
+project(':reactnativepulsatornative').projectDir = new File(rootProject.projectDir, '../../android')
