@@ -3,7 +3,16 @@ import React from 'react';
 
 const PulsatorNative = requireNativeComponent('PulsatorNative', null);
 
-export default function PulsatorNative({ pulsatorColor = '#08400d', styles = stylesDefault, children, isRunning }) {
+let stylesDefault = {
+  width: 300,
+  height: 300,
+  justifyContent: 'center',
+  alignItems: 'center',
+  zIndex: -1,
+};
+
+
+export default function ({ pulsatorColor = '#08400d', styles = stylesDefault, children, isRunning }) {
   return <PulsatorNative
     style={[stylesDefault, styles]}
     pulsatorColor={pulsatorColor}
@@ -16,10 +25,3 @@ export default function PulsatorNative({ pulsatorColor = '#08400d', styles = sty
   </PulsatorNative>;
 }
 
-let stylesDefault = {
-  width: 300,
-  height: 300,
-  justifyContent: 'center',
-  alignItems: 'center',
-  zIndex: -1,
-};
