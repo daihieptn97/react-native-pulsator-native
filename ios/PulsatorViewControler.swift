@@ -22,6 +22,16 @@ class PulsatorViewControler: UIControl {
         }
     }
 
+    @objc var isRunning: Bool = false {
+        didSet {
+            if isRunning {
+                pulsator.start()
+            }else {
+                pulsator.stop()
+            }
+        }
+    }
+
     @objc var sizeCenterPulsator: NSNumber = 10 {
         didSet {
 //            let widthCircle = bounds.size.width * 0.3;
