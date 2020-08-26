@@ -1,5 +1,4 @@
-import { requireNativeComponent, View } from 'react-native';
-import React from 'react';
+import { requireNativeComponent } from 'react-native';
 
 const PulsatorNative = requireNativeComponent('PulsatorNative', null);
 export default PulsatorNative;

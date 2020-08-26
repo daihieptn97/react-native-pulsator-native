@@ -1,27 +1,36 @@
 # react-native-pulsator-native
 
-Not working android
+Pulsator for React Native. This library binds iOS and Android libraries from below repositories:
+
+- iOS: https://github.com/shu223/Pulsator.
+- <b>Not working android<b>
 
 ## Installation
 
+- Step 1:
+
 ```sh
-npm install react-native-pulsator-native
+yarn add react-native-pulsator-native
+```
+- Step 2:
+```sh
+cd ios && pod install
 ```
 
 ## Usage
 
 ```js
-import PulsatorNative from "react-native-pulsator-native";
+import React from 'react';
+import {Text, View} from 'react-native';
+import PulsatorNative from 'react-native-pulsator-native';
 
-// ...
+export default function () {
+    return <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text>Hello</Text>
+        <PulsatorNative style={{width : 300, height : 300}}/>
+    </View>;
+}
 
-const result = await PulsatorNative.multiply(3, 7);
 ```
 
-## Contributing
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT

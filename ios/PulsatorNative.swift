@@ -4,7 +4,7 @@ import Foundation
 @objc(PulsatorNative)
 class PulsatorNative: RCTViewManager {
 
-  override func view() -> UIView! {
+  override func view() -> UIControl! {
     return PulsatorViewControler()
   }
 
