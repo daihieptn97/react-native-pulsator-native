@@ -34,13 +34,7 @@ class PulsatorViewControler: UIControl {
 
     @objc var sizeCenterPulsator: NSNumber = 10 {
         didSet {
-//            let widthCircle = bounds.size.width * 0.3;
-//            let x = bounds.size.width / 2 - widthCircle / 2
-//            let y = bounds.size.height / 2 - widthCircle / 2
-
             print("sizeCenterPulsator", sizeCenterPulsator)
-
-//            buttonT.frame = CGRect(x: bounds.size.width / 2 , y: bounds.size.height / 2 , width: CGFloat(truncating: sizeCenterPulsator), height: CGFloat(truncating: sizeCenterPulsator))
         }
     }
 
@@ -95,7 +89,7 @@ class PulsatorViewControler: UIControl {
         super.init(frame: frame)
 
 
-        buttonT.addTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
+        //buttonT.addTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
         self.addSubview(buttonT)
 
     }

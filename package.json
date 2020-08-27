@@ -1,6 +1,6 @@
 {
   "name": "react-native-pulsator-native",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Not working android",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -30,9 +30,9 @@
     "bootstrap": "yarn example && yarn && yarn pods"
   },
   "keywords": [
-    "react-native",
-    "ios",
-    "android"
+    "react-native-pulsator-native",
+    "react-native-pulsator",
+    "ios"
   ],
   "repository": {
     "type": "git",
