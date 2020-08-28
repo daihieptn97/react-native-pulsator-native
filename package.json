@@ -1,6 +1,6 @@
 {
   "name": "react-native-pulsator-native",
-  "version": "0.1.11",
+  "version": "1.0.1",
   "description": "Not working android",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
