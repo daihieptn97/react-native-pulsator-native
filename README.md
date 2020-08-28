@@ -5,6 +5,10 @@ Pulsator for React Native. This library binds iOS and Android libraries from bel
 - iOS: https://github.com/shu223/Pulsator.
 -  Not working android
 
+### Demo 01
+
+![](./Demo/demo02.gif)
+
 ## Installation
 
 - Step 1:
@@ -60,10 +64,6 @@ style of pulsation
 set Sate for pulsation. True is running, false is stop
 
 ## Demo
-
-### Demo 01
-
-![](./Demo/demo02.gif)
 
 ### Demo 02
 
