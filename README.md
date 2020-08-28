@@ -60,6 +60,7 @@ style of pulsation
 set Sate for pulsation. True is running, false is stop
 
 ## Demo
-![image info](./Demo/demo02.gif)
-![image info](./Demo/demo01.png)
-
+###Demo 01
+![](./Demo/demo02.gif)
+### Demo 02
+![](./Demo/demo01.png)
