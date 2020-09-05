@@ -14,7 +14,6 @@ let stylesDefault = {
 
 
 export default function({ pulsatorColor = '#08400d', styles = stylesDefault, children, isRunning }) {
-  console.log(styles);
   return <PulsatorNative
     style={[styles]}
     pulsatorColor={pulsatorColor}
@@ -29,7 +28,6 @@ export default function({ pulsatorColor = '#08400d', styles = stylesDefault, chi
     }}>
       {children}
     </View>
-
   </PulsatorNative>;
 }
 
